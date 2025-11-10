@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { SanityService } from 'src/sanity/sanity.service';
-import { Experience } from 'src/types/resume.type';
+import { SanityService } from '../sanity/sanity.service';
+import { Experience } from '../types/resume.type';
 
 @Injectable()
 export class ResumeService {
